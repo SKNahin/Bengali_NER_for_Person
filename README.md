@@ -46,7 +46,7 @@ label =       1   1   0      0      0   0   0    0
 ## Train & Validation
 Run [train.py](https://github.com/SKNahin/Bengali_NER_for_Person/blob/main/train.py) to train the model and run [test.py](https://github.com/SKNahin/Bengali_NER_for_Person/blob/main/test.py) to evaluate the model. Make sure to load the latest weight.
 
-To train and evaluate the model run this [Notebook](https://github.com/SKNahin/Bengali_NER_for_Person/blob/main/notebooks/bengali-ner.ipynb).
+Also, you can run this [Notebook](https://github.com/SKNahin/Bengali_NER_for_Person/blob/main/notebooks/bengali-ner.ipynb) train and evaluate the model.
 
 
   
