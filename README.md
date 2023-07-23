@@ -6,9 +6,7 @@ In this repository, Bengali NER Model is trained and evaluated using two dataset
 This raw datasets can be found in [data](https://github.com/SKNahin/Bengali_NER_for_Person/tree/main/data) folder.
 
 ## Data Preprocessing
-These datasets are not directly used for model training. As the datasets  contain multiple label at first,
-the labels are transformed in binary form. Also, it was taken care of that the space separated parts of a sentence
-align with the labels. If an word is a name or part of a name that is labeled 1 otherwise 0.
+These datasets are not directly used for model training. As the datasets contain multiple labels, at first the labels are transformed in binary form. Also, it was taken care of that the space separated parts of a sentence align with the labels. If a word is a name or part of a name that is labeled `1` otherwise `0`.
 
 [Notebook](https://github.com/SKNahin/Bengali_NER_for_Person/blob/main/notebooks/processing_data.ipynb) for data preprocessing can be found in notebooks folder.
 
