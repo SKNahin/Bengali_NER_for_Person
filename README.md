@@ -23,16 +23,16 @@ Here is the data distribution:
 <th valign="bottom">Samples</th>
 <!-- TABLE BODY -->
 <!-- ROW: Train -->
- <tr><td align="left"></td>
-<td align="center">1000</td>
+ <tr><td align="left">Train</td>
+<td align="center">7434</td>
 </tr>
 <!-- ROW: Valid -->
- <tr><td align="left"></td>
-<td align="center">1000</td>
+ <tr><td align="left">Valid</td>
+<td align="center">929</td>
 </tr>
 <!-- ROW: Test -->
- <tr><td align="left"></td>
-<td align="center">1000</td>
+ <tr><td align="left">Test</td>
+<td align="center">931</td>
 </tr>
 </tbody></table>
 
@@ -43,6 +43,10 @@ sentence = "আব্দুর রহিম নামের কাস্টম�
 label =       1   1   0      0      0   0   0    0
 ```
 
+## Train & Validation
+Run [train.py](https://github.com/SKNahin/Bengali_NER_for_Person/blob/main/train.py) to train the model and run [test.py](https://github.com/SKNahin/Bengali_NER_for_Person/blob/main/test.py) to evaluate the model. Make sure to load the latest weight.
+
+To train and evaluate the model run this [Notebook](https://github.com/SKNahin/Bengali_NER_for_Person/blob/main/notebooks/bengali-ner.ipynb).
 
 
   
