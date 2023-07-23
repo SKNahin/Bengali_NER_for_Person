@@ -47,7 +47,35 @@ label =       1   1   0      0      0   0   0    0
 Run [train.py](https://github.com/SKNahin/Bengali_NER_for_Person/blob/main/train.py) to train the model and run [test.py](https://github.com/SKNahin/Bengali_NER_for_Person/blob/main/test.py) to evaluate the model. Make sure to load the latest weight.
 
 Also, you can run this [Notebook](https://github.com/SKNahin/Bengali_NER_for_Person/blob/main/notebooks/bengali-ner.ipynb) train and evaluate the model.
+The model is trained for three epochs and the metric used to evaluate the model is F1 score. Best F1 score was `0.8992`.
 
+## Prediction
+[predictions](https://github.com/SKNahin/Bengali_NER_for_Person/tree/main/predictions) folder contains `prediction.csv` file. Here is an example of model's prediction-
 
+```python
+sentence = "এরকম একজন হারিয়ে যাওয়া মনীষী কিশোরগঞ্জের আনন্দমোহন বসু ।"
+prediction = "আনন্দমোহন বসু"
+```
+
+## Follow Paths
+```python
+Bengali_NER_for_Person/
+|-- data/
+|   |-- raw_data/
+|   |-- processed_data/
+|-- notebooks/
+|   |-- bengali-ner.ipynb
+|   |-- processing_data.ipynb
+|-- predictions
+|   |-- predictions.csv
+|-- utils/
+|   |-- helper.py
+|   |-- preprocessor.py
+|   |-- trainer.py
+|-- requirements.txt
+|-- train.py
+|-- test.py
+
+```
   
   
