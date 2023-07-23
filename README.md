@@ -10,7 +10,7 @@ These datasets are not directly used for model training. As the datasets contain
 
 [Notebook](https://github.com/SKNahin/Bengali_NER_for_Person/blob/main/notebooks/processing_data.ipynb) for data preprocessing can be found in notebooks folder.
 
-[processed_data](https://github.com/SKNahin/Bengali_NER_for_Person/tree/main/data) folder contains [balanced](https://github.com/SKNahin/Bengali_NER_for_Person/tree/main/data/processed_data/balanced) and [unbalanced](https://github.com/SKNahin/Bengali_NER_for_Person/tree/main/data/processed_data/unbalanced) folders. Both this folder contains train.json, valid.json and test.json files. In balanced folder train.json file contains some repeated examples of those sentences which contain at least one name. 
+[processed_data](https://github.com/SKNahin/Bengali_NER_for_Person/tree/main/data) folder contains [balanced](https://github.com/SKNahin/Bengali_NER_for_Person/tree/main/data/processed_data/balanced) and [unbalanced](https://github.com/SKNahin/Bengali_NER_for_Person/tree/main/data/processed_data/unbalanced) folders. Both this folder contains `train.json`, `valid.json` and `test.json` files. In balanced folder `train.json` file contains some repeated examples of those sentences which contain at least one name. 
 
 Here is the data distribution:
 
