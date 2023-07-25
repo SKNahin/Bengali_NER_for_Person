@@ -64,7 +64,7 @@ Bengali_NER_for_Person/
 |-- notebooks/
     |-- bengali-ner.ipynb
     |-- processing_data.ipynb
-|-- predictions
+|-- predictions/
     |-- predictions.csv
 |-- utils/
     |-- helper.py
