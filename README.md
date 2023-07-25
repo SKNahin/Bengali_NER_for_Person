@@ -59,17 +59,17 @@ prediction = "আনন্দমোহন বসু"
 ```python
 Bengali_NER_for_Person/
 |-- data/
-|   |-- raw_data/
-|   |-- processed_data/
+    |-- raw_data/
+    |-- processed_data/
 |-- notebooks/
-|   |-- bengali-ner.ipynb
-|   |-- processing_data.ipynb
+    |-- bengali-ner.ipynb
+    |-- processing_data.ipynb
 |-- predictions
-|   |-- predictions.csv
+    |-- predictions.csv
 |-- utils/
-|   |-- helper.py
-|   |-- preprocessor.py
-|   |-- trainer.py
+    |-- helper.py
+    |-- preprocessor.py
+    |-- trainer.py
 |-- requirements.txt
 |-- train.py
 |-- test.py
